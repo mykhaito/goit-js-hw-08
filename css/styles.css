@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 24px 156px;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  transition: transform 500ms ease;
+}
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+  align-items: center;
+}
+
+.gallery-image {
+  width: 360px;
+  height: 200px;
+}
+
+img:hover{
+    transform: scale(1.04)
+}
